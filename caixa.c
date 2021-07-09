@@ -1,4 +1,4 @@
-// AndrÈ Nunes de Matos
+// Andr√© Nunes de Matos
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,11 +9,11 @@
 int main (){
 	 setlocale(LC_ALL, "Portuguese");
 
-	int contA = 1, contC, cod, quant [10] = {0};
+	int contA = 1, contB, contC, cod, quant [10] = {0};
 	float total [10], pagar = 0, pago = 0, valorF = 0, troco, ver, descont;
 	float precoUni [10] = {5.50, 7.25, 4.99, 2.15, 3.20, 6.45, 13.50, 12.10, 2.89, 6.45};
 	char nome [55];
-	char prod [10][17] = {"Arro", "feij„o", "AÁucar", "Sal", "leite", "Macarr„o", "Erva-mate", "CafÈ", "Farinha de Trigo", "Ervilha"};
+	char prod [10][17] = {"Arro", "feij√£o", "A√ßucar", "Sal", "leite", "Macarr√£o", "Erva-mate", "Caf√©", "Farinha de Trigo", "Ervilha"};
 
 
 
@@ -22,54 +22,54 @@ int main (){
 	fflush(stdin);
 
 
-	printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+	printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 	scanf("%i", &cod);
 
 //----------------------------------------------------------------------------------------
-	while (cod != 0){ //condiÁ„o de saida do sistema{
+	while (cod != 0){ //condi√ß√£o de saida do sistema{
 
 		if(cod==1){ //contador de vendas de produtos
 				quant[0]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==2){
 				quant[1]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==3){
 				quant[2]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==4){
 				quant[3]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==5){
 				quant[4]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==6){
 				quant[5]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==7){
 				quant[6]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==8){
 				quant[7]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==9){
 				quant[8]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else if(cod==10){
 				quant[9]++;
-				printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+				printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 				scanf("%i", &cod);
 		}else{
-		printf("\n\n 1 = Arro, 2 = feij„o, 3 = AÁucar, 4 = Sal, 5 = leite, 6 = Macarr„o, 7 = Erva-mate, 8 = CafÈ, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o CÛdigo: " );
+		printf("\n\n 1 = Arro, 2 = feij√£o, 3 = A√ßucar, 4 = Sal, 5 = leite, 6 = Macarr√£o, 7 = Erva-mate, 8 = Caf√©, 9 = Farinha de Trigo, 10 = Ervilha \n 0 = Se desejar sair \n Digite o C√≥digo: " );
 		scanf("%i", &cod);
 	}
 
@@ -81,9 +81,9 @@ int main (){
 	printf("\n\t\t\tMERCADO DO MARQUES  ");
 	printf("\n Cliente: %s",nome);
 	printf("\n -------------------------------------------------------------------------");
-	printf("\n CÛd. \tQtd \tProduto\t\t\tPreÁoUnit·rio\t\tTotal");
+	printf("\n C√≥d. \tQtd \tProduto\t\t\tPre√ßoUnit√°rio\t\tTotal");
 //----------------------------------------------------------------------------------------
-// loop que imprime cada linha com total de quantidades por produto, valor unit·rio e valor total
+// loop que imprime cada linha com total de quantidades por produto, valor unit√°rio e valor total
 
 	for(contC=0;contC<10;contC++){
        if (quant[contC]>0){
@@ -94,7 +94,7 @@ int main (){
 	}
 //----------------------------------------------------------------------------------------
 //calculadora do total a pagar sem desconto
-	for(int contB=0;contB<10;contB++){
+	for(contB=0;contB<10;contB++){
 		pagar = pagar+total[contB];
 	}
 //----------------------------------------------------------------------------------------
