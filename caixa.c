@@ -18,7 +18,7 @@ int main (){
 
 
 	printf(" Nome do cliente: ");
-    gets(nome);
+   	gets(nome);
 	fflush(stdin);
 
 
@@ -86,7 +86,7 @@ int main (){
 // loop que imprime cada linha com total de quantidades por produto, valor unitário e valor total
 
 	for(contC=0;contC<10;contC++){
-       if (quant[contC]>0){
+        if (quant[contC]>0){
         total[contC]=quant[contC]*precoUni[contC];
         printf("\n %i  \t%i \t%-18s \tR$ %.2f \t\tR$ %.2f", contA, quant[contC],prod[contC],precoUni[contC], total[contC]);
        }
